@@ -1,0 +1,113 @@
+a {
+    color: darkred;
+}
+
+@font-face { 
+    font-family: Ruritania-Outline;
+    src: url(font/Ruritania-Outline.ttf);
+ }
+
+ h1 {
+ 	font-family: "Ruritania-Outline";
+ 	font-weight: 200;
+ 	font-size: 100px;
+ 	text-shadow:3px 3px 3px rgba(0,0,0,1);
+ 	padding: 10px; 
+  color:white; 
+}
+
+ h2 {
+  font-family: "Ruritania-Outline";
+  font-weight: 200;
+  font-size: 100px;
+  text-shadow:3px 3px 3px rgba(0,0,0,1);
+  padding: 10px;
+  color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+  background-color: black;
+  color: red;
+  outline-color: deeppink;
+  outline-style: solid;
+}
+
+p {
+
+    text-align: justify;
+    padding: 36px;
+    color: white;
+    font-size: 30px;
+
+
+ }
+
+
+
+header{
+  padding-right: 500px
+}
+
+
+.abcd {
+	color: red;
+}
+
+.efgh {
+	color: brown;
+}
+
+.ijkl {
+	color: black;
+	}
+
+.chong {
+  font-family: "Ruritania-Outline", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.boite {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 50px;
+  padding:  50px;
+
+}
+
+td, th {
+   border: 1px solid black;
+}
+
+table {
+   border-collapse: collapse; 
+    width: 80%;
+    margin: 20px auto;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   color: white;
+}
+
+body 
+{
+  background-image: url("images/ring.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+img {
+  border-radius: 10px;
+}
